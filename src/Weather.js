@@ -3,6 +3,9 @@ import "./Weather.css";
 import axios from "axios";
 
 export default function Weather() {
+  let apiKey = "c20161a98fff44a06b23236e2obd0t3b";
+  let apiUrl =
+    "https://api.shecodes.io/weather/v1/current?query=Berlin&key=${apiKey}&units=metric";
   return (
     <div className="Weather">
       <form>
