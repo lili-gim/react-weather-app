@@ -1,11 +1,12 @@
 import "./App.css";
+import axios from "axios";
 import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Berlin" />
 
         <footer>
           This project was coded by Lili Gim and is{" "}
